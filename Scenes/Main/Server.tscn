@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfjcd5w15pr1a"]
+
+[ext_resource type="Script" path="res://Scenes/Main/NetworkConnection.gd" id="1_ji8w5"]
+[ext_resource type="Script" path="res://Scenes/Main/StateProcessing.gd" id="2_48et4"]
+
+[node name="Server" type="Node"]
+script = ExtResource("1_ji8w5")
+
+[node name="StateProcessing" type="Node" parent="."]
+script = ExtResource("2_48et4")
